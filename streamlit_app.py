@@ -15,7 +15,8 @@ def print_unavailable_migration() -> None:
     st.error(f"EQUIVALÊNCIA NÃO DISPONÍVEL", icon="🚨")
 
     string = f"#### "
-    string += f"O caso deve ser avaliado pelo time de Currículo, através de um chamado para Orientação Pedagógica."
+    string += f"O caso deve ser avaliado pelo time de Currículo, através do seguinte formulário:\n"
+    string += f"##### [Solicitação de Análise de Alteração de Currículo - Curso de Programação](https://docs.google.com/forms/d/e/1FAIpQLSc_6p8cp8B7b0KtK0sKa_pgYXBuHLSKZK-es9ZudQfeawSQXg/viewform)"
     st.markdown(string)
 
 
